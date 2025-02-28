@@ -181,14 +181,14 @@ public class AppDbSeed
         List<Usuario> usuarios = new() {
             new Usuario(){
                 Id = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
-                Email = "bruuna.oliveiraa1@gmail.com",
-                NormalizedEmail = "BRUUNA.OLIVEIRAA1@GMAIL.COM",
-                UserName = "BrunaLopes",
-                NormalizedUserName = "BRUNALOPES",
+                Email = "itamararodriguesdeoliveira@gmail.com",
+                NormalizedEmail = "ITAMARARODRIGUESDEOLIVEIRA@GMAIL.COM",
+                UserName = "IttaRodrigues",
+                NormalizedUserName = "ITTARODRIGUES",
                 LockoutEnabled = true,
                 EmailConfirmed = true,
-                Nome = "Bruna Maria Lopes de Oliveira",
-                DataNascimento = DateTime.Parse("06/02/1996"),
+                Nome = "Itamara Rodrigues de Oliveira",
+                DataNascimento = DateTime.Parse("06/02/1994"),
                 Foto = "/img/usuarios/ddf093a6-6cb5-4ff7-9a64-83da34aee005.png"
             }
         };

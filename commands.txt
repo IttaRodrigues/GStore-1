@@ -1,11 +1,12 @@
-git config --global user.name brunalopes1996
-git config --global user.email bruuna.oliveiraa1@gmail.com
+git config --global user.name IttaRodrigues
+git config --global user.email itamararodriguesdeoliveira@gmail.com
+
 
 dotnet new sln --name GStore
 dotnet new mvc -o GStore
 dotnet sln add GStore\GStore.csproj
 
-cd GStore
+
 
 dotnet add package Microsoft.EntityFrameworkCore --version 9.0.2
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.2
@@ -21,8 +22,9 @@ Configura a ConnectionString appsettings.json
 
 Configura os serviços de Context e Identity no Program.cs
 
-cd GStore
 
-Excecutar o Xampp e o MySql
+cd GStore 
 
-dotnet watch run
+executar o xamp e o MySql
+
+dotnet watch run 
